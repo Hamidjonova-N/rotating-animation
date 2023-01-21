@@ -5,10 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rotating navigation</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="container">
+      <div class="circle-container">
+        <div class="buttun-container">
+          <buttun id="open-buttun">
+            <i class="fas fa-bars"></i>
+          </buttun>
+          <button id="close-button">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content-container">
+        <h1 class="content-heading">Amazing Article</h1>
+        <h2 class="content-author">Hamidjonova Nigoraxon</h2>
+        <p class="content-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+          perferendis earum, non nam praesentium illo nisi eaque fugiat! Quos
+          vero, delectus consectetur iste impedit veniam, ea ipsa consequuntur
+          quam reiciendis, vel adipisci ipsum reprehenderit nemo tenetur
+          repellat autem fuga suscipit facilis nobis corporis nihil. Asperiores
+          voluptas quidem eum nulla eaque sapiente illo aliquam facere sunt,
+          unde repellendus obcaecati dicta, animi illum dolor molestias error
+          impedit rerum! Ipsam, debitis architecto, rem mollitia ducimus nostrum
+          tempore ipsum laudantium magnam cum non sit consectetur pariatur. Nemo
+          pariatur nisi, sunt delectus, deserunt vero fugit et corrupti dolorum
+          officia reprehenderit deleniti optio perferendis. Fuga, molestias!
+        </p>
+        <img class="content-img" src="img/wallpaper.jpg" alt="Lighthouse" />
+      </div>
+    </div>
+    <div class="sitenav">
+      <ul class="sitenav-list">
+        <li class="sitenav-item">
+          <a class="sitenav-link" href=""> <i class="fas fa-home"></i>Home </a>
+        </li>
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="">
+            <i class="fas fa-user-alt"></i>About
+          </a>
+        </li>
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="">
+            <i class="fas fa-envelope"></i>
+            Connect
+          </a>
+        </li>
+      </ul>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
